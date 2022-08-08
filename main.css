@@ -1,0 +1,142 @@
+body {
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.header{
+    font-style: italic;
+    color: white;
+    width: 100%;
+    min-width: 5em;
+    background-color: aquamarine;
+
+    padding: 4px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .h1{
+     padding: 16px;
+     padding: 8px;
+     border-radius: 4px;
+     text-decoration: none;
+     background-color: lightsalmon;
+     color: antiquewhite;
+}
+.header .h1 .a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.header .nav{
+    border-radius: 4px;
+    background-color: lightsalmon;
+}
+.header .ul{
+}
+.header .li{
+    background-color: lightsalmon;
+    margin: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.header .li .a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.main{
+    background-color: aquamarine;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.seccion{
+    width: 100%;
+    min-width: 80vh;
+    background-color: lightsalmon;
+    margin: 1em 0em;
+   
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.seccion .circulos{}
+.seccion .circulo{}
+.seccion .h2{}
+.seccion .h3{}
+
+.seccion .p{}
+.seccion .grid{
+    width: 90%;
+    background-color: lightsalmon;
+    margin: 1em 0;
+
+    display: grid;
+    grid-template-columns: repeat( auto-fit , minmax( 10rem , 1fr));
+    gap: 1em;
+    
+}
+.seccion .article{
+    width: 100%;
+    min-height: 20vh;
+    background-color: lightseagreen;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.seccion .a{}
+.seccion .img{
+    width: 100%;
+    background-color: whitesmoke;
+    
+}
+.seccion .h4{
+    width: 100%;
+    margin: 6px;
+    background-color: lightblue;
+    bottom: 0;
+    left: o;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionsobremi{}
+.seccionsobremi .h2{
+    margin: 0 0 1em;
+}
+.seccionsobremi .p{
+    margin: 6px ;
+    background-color: lightsalmon;
+    
+    
+}
+.seccionsobremi .rrss{
+}
+.seccionsobremi .li{
+    margin: 0 1em;
+}
+.seccionsobremi .a{}
+.seccionsobremi .svg{
+    background: lightsteelblue;
+}
+
+.footer{
+    background-color: lightcoral;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.footer .span{}
+
+
+
